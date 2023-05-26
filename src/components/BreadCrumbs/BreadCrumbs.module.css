@@ -1,0 +1,23 @@
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+.breadcrumbs .crumb:after {
+  content: "→";
+  margin-left: 10px;
+}
+.breadcrumbs .crumb:last-child:after {
+  display: none;
+}
+.breadcrumbs .crumb:last-child a:last-child {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.breadcrumbs .crumb:first-child a {
+  color: #383737;
+  text-decoration: none;
+}

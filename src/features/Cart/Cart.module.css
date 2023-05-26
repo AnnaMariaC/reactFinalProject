@@ -1,0 +1,64 @@
+.emptyShoppingBag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--error-color);
+}
+.containerDivCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 70%;
+  width: 100%;
+}
+.tableCart th,
+.tableCart td {
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 1.4rem;
+}
+.tableCart th h4 {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border-radius: 7px;
+  padding: 0.6rem 0.8rem;
+}
+.tableCart img {
+  width: 200px;
+}
+.quantityButton button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 6px;
+  margin: 0.7rem 0.7rem;
+  padding: 0.2rem 0.5rem;
+}
+.quantityButton button:hover {
+  background-color: var(--primary-color-dark);
+  cursor: pointer;
+}
+.deleteItem {
+  background-color: #fff;
+  border: none;
+  color: var(--error-color);
+}
+.deleteItem:hover {
+  color: var(--text-color);
+  cursor: pointer;
+}
+.deleteAllItems {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  background-color: var(--error-color);
+  border: none;
+  border-radius: 20px;
+  padding: 0.6rem 0.8rem;
+  color: #fff;
+}
+.deleteAllItems:hover {
+  background-color: var(--error-color-dark);
+  cursor: pointer;
+}

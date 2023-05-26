@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "email": "ana@yahoo.com",
+      "password": "$2a$10$.AvjgyrKj2mCNoJlxh89MOshM9sQUrpZrLG0.Xfbkp00SDQIk.VRK",
+      "firstName": "Anna",
+      "lastName": "Maria",
+      "id": 1
+    },
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$D.rWgCRbI.wtr1xPgZzhH.lQCOVF9Yx.doHFPpD22VZUBubL1Qore",
+      "firstName": "Alina",
+      "lastName": "Alice",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "iPhone Pro",
+      "description": "O modalitate magica de a interactiona cu iPhone. O functionalitate vitala de siguranta, conceputa pentru a salva vieti. O camera principala inovatoare de 48MP. Plus un afisaj de doua ori mai stralucitor in lumina soarelui. Toate propulsate de cel mai avansat cip din echiparea vreunui smartphone.",
+      "brandId": 2,
+      "categoryId": 1,
+      "price": "5999",
+      "stock": "7",
+      "picture": "https://lcdn.altex.ro/media/catalog/product/i/p/iphone_14_pro_deep_purple-1_c5b26e68.jpg"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "name": "iPhone Pro Max",
+      "description": "Dynamic Island afișează muzica pe care o asculți, scorurile sportive, FaceTime.Consultă declinarea răspunderii legale și multe altele. Totul, fără să te întrerupă din ceea ce faci.",
+      "brandId": 2,
+      "categoryId": 1,
+      "price": 6999,
+      "stock": 4,
+      "picture": "https://lcdn.altex.ro/media/catalog/product/i/p/iphone_14_pro_silver-1_56a46342.jpg"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "name": "Galaxy S23 Plus",
+      "description": "Profita de zi si surprinde imagini clare si pe timp de noapte. Ai mereu la indemana o camera de calitate profesionala, echipata cu un senzor de inalta rezolutie si pixeli inteligenti, care absorb lumina, pentru instantanee clare, la orice ora. ",
+      "brandId": 1,
+      "categoryId": 1,
+      "price": 3299,
+      "stock": 22,
+      "picture": "https://lcdn.altex.ro/media/catalog/product/t/e/telefon_samsung_galaxy_s23_green_01_56193a18.png"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "name": "iPhone Plus",
+      "description": "iPhone 14 si iPhone 14 Plus. Alege intre ecranele Super Retina XDR stralucitor de 6,1 inchi sau 6,7 inchi. Realizeaza poze uimitoare in lumina slaba sau foarte puternica multumita noului sistem cu doua camere. Detectare accident, o noua functionalitate de siguranta, suna dupa ajutor daca tu nu poti",
+      "brandId": 2,
+      "categoryId": 1,
+      "price": 4299,
+      "stock": 4,
+      "picture": "https://lcdn.altex.ro/media/catalog/product/i/p/iphone_14_midnight-1_2d04711a.jpg"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "name": "Galaxy S23 Ultra",
+      "description": "Maximizează-ți timpul liber cu Snapdragon® 8 Gen 2 Mobile Platform pentru Galaxy, cel mai rapid Snapdragon din lume. Prin funcții îmbunătățite la nivel general, absolut totul, de la jocuri până la difuzare în flux, este optimizat și se desfășoară perfect, fără a consuma bateria.",
+      "brandId": 1,
+      "categoryId": 1,
+      "price": 5299,
+      "stock": 22,
+      "picture": "https://lcdn.altex.ro/media/catalog/product/t/e/telefon_samsung_galaxy_s23_ultra_lavender_01_1c1b2128.jpg"
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "name": "P50 Pro",
+      "description": "Camera Dual-Matrix iese cu adevarat in evidenta datorita designului geometric simplificat. Cele doua cercuri captivante se fac remarcate oriunde mergi.",
+      "brandId": 3,
+      "categoryId": 1,
+      "price": 4000,
+      "stock": 4,
+      "picture": "https://lcdn.altex.ro/media/catalog/product/s/m/smtp50progd-4_caaa0349.jpg"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "name": "Mate 50 Pro",
+      "description": "Simetrie estetica, model Clous de Paris rafinat, sticla Kunlun durabila, rezistenta la apa de 6 metri.",
+      "brandId": 3,
+      "categoryId": 1,
+      "price": 5892,
+      "stock": 22,
+      "picture": "https://lcdn.altex.ro/media/catalog/product/t/e/telefon_huawei_mate_50_pro_orange_01_bcb590f6.jpg"
+    },
+    {
+      "categoryId": 1,
+      "brandId": 1,
+      "stock": 1,
+      "price": 5999.99,
+      "description": "Ecranul LTPO de 6.67 inch asigura prinderea eficienta si o imagine captivanta gratie ratei adaptive de reimprospatare de 1-120 Hz. Afisajul HUAWEI X-TRUE  ofera culori precise si detalii realiste in zone luminoase si intunecate. Pentru ca suporta o gama larga de culori P3, modelul a primit certificarea dubla TÜV Rheinland pentru precizia culorii (precizie culoare si proiectia precisa a culorii).\n\n ",
+      "picture": "https://lcdn.altex.ro/media/catalog/product/t/e/telefon_huawei_p60_pro_rococo_pearl_01_a0369f0b.jpg",
+      "name": "HUAWEI P60 Pro",
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "categoryId": 1,
+      "brandId": 1,
+      "stock": 1,
+      "price": 2300.94,
+      "description": "Bucura-te de ceva special. Culorile folosite pentru rama metalica sunt inspirate din natura si realizate din coloranti naturali.Pregateste-te pentru o galerie plina de fotografii epice pe timp de noapte pe care toata lumea le va dori",
+      "picture": "https://lcdn.altex.ro/media/catalog/product/t/e/telefon_samsung_galaxy_s23_cream_0_a376b87c.png",
+      "name": "Galaxy S23",
+      "userId": 1,
+      "id": 10
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Phones"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Samsung"
+    },
+    {
+      "id": 2,
+      "name": "Apple"
+    },
+    {
+      "id": 3,
+      "name": "Huawei"
+    }
+  ]
+}

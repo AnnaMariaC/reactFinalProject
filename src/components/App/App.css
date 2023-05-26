@@ -1,0 +1,104 @@
+:root {
+  --primary-color: #1ba0f2d3;
+  --primary-color-dark: #0a85f0dc;
+  --secondary-color: #38bdf2d8;
+  --secondary-color-dark: #1c84adce;
+  --accent-color: #f2a516;
+  --error-color: #d56161;
+  --error-color-dark: #ff2d21;
+  --success-color: #8ad94d;
+  --success-color-dark: #365c21;
+  --text-color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  color: var(--primary-color);
+}
+input:where(
+    [type="text"],
+    [type="password"],
+    [type="number"],
+    [type="email"],
+    [type="url"]
+  ) {
+  --border-color: var(--primary-color);
+  padding: 0.2rem 0.4rem;
+
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+}
+
+input:where(
+    [type="text"],
+    [type="password"],
+    [type="number"],
+    [type="email"],
+    [type="url"]
+  ):focus {
+  outline: 2px solid var(--primary-color);
+}
+
+input:is(:not([type="checkbox"], [type="radio"])),
+textarea {
+  padding: 0.3rem 0.2rem;
+
+  border: 1px solid var(--primary-color-dark);
+  border-radius: 3px;
+  font-family: inherit;
+}
+
+input {
+  accent-color: var(--primary-color);
+}
+
+label {
+  text-align: right;
+  margin-top: 0.2rem;
+}
+
+.inputError {
+  grid-column-start: 2;
+
+  margin: 0;
+  color: var(--error-color);
+}
+
+.hasError {
+  --border-color: var(--error-color);
+}
+
+.submitBtn {
+  grid-column-start: 2;
+}
+
+.pageForm {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 0.3rem;
+
+  width: 450px;
+}
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
