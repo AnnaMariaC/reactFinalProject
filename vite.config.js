@@ -5,5 +5,6 @@ import eslint from "vite-plugin-eslint";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/reactFinalProject",
   plugins: [react(), eslint(), jsconfigPaths()],
 });

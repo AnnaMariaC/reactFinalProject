@@ -25,7 +25,6 @@ export function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<ProductList />} />
-
           <Route
             path="/products/:id"
             element={
